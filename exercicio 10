@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro num1, cont 
+		
+ escreva ("Digite o seu numero: ")
+		leia(num1)
+		
+		cont = 0
+		
+		enquanto (cont <= num1)
+		{
+		   escreva(cont,"\n")
+		   cont++
+		}
+	}
+}
