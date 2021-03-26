@@ -1,0 +1,16 @@
+programa
+{
+	
+inteiro num
+	funcao inicio()
+	{
+		escreva("Digite  o valor : ")
+		leia(num)
+		
+		se (num>=0){
+			escreva("o numero é positivo ", num )
+		}senao{
+			escreva("o numero não é negativo ", num)
+		}
+	}
+}
