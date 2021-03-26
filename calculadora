@@ -1,0 +1,32 @@
+programa
+{
+	
+real n, n1 , r , calculo
+	funcao inicio()
+	{
+		escreva("Digite um numero: " )
+		leia(n)
+		escreva("Digite outro numero: " )
+		leia(n1)
+		escreva("Voce deseja que seja uma conta de : \n",
+			    "1) +\n2) -\n3) *\n4) / \n")
+		leia(r)
+		
+		se (
+r == 1){
+			calculo = n+ n1
+			escreva("A reposta é : ", calculo )
+		}senao se ( r==2){
+			calculo = n-n1
+			escreva("A reposta é : ", calculo )
+		}senao se ( r==3 ){
+			calculo = n*n1
+			escreva("A reposta é : ", calculo )
+		}senao se ( r==4){
+			calculo = n/n1
+			escreva("A reposta é : ", calculo )
+		}senao{
+			escreva("Voce escolheu uma opção inaceitável")
+		}
+	}
+}
