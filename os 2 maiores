@@ -15,34 +15,35 @@ programa
 
         	
           se(num1 > num2 e num2 > num3 ) {
-            escreva("\nOs maiores numeros são:")
+            escreva("\nOs maiores numeros são:", num1, " ",num2)
             calculo = num1+num2
             escreva("\nCalculo é :", calculo)
 
           }senao se(num3 > num2 e num2 > num1 ){
-            escreva("\nOs maiores numeros são:")
+            escreva("\nOs maiores numeros são:", num3, " ", num2)
             calculo = num3+num2
             escreva("\nCalculo é :", calculo)
             
           }senao se(num2 > num3 e num3 > num1 ){
-            escreva("\nOs maiores numeros são:")
+            escreva("\nOs maiores numeros são:", num2, " ", num3)
             calculo = num2+num3
             escreva("\nCalculo é : ", calculo)
 
           }senao se(num1 > num3 e num3 > num2 ){
-		  escreva("\nOs maiores numeros são:")
+		  escreva("\nOs maiores numeros são:", num1, " ", num3)
 		  calculo = num1+num3
             escreva("\nCalculo é :", calculo)
 
           }senao se(num3 > num1 e num1 > num2 ){
-            escreva("\nOs maiores numeros são:")
+            escreva("\nOs maiores numeros são:", num3, " " , num1)
             calculo = num3+num1
             escreva("\nCalculo é ;", calculo)
 
           }senao se(num2 > num1 e num1 > num3){
-            escreva("\nOs maiores numeros são:")
+            escreva("\nOs maiores numeros são:",num2, " ", num1)
             calculo = num2+num1
-            escreva("\n",num2," ",num1," ")
+            escreva("\nCalculo é ;", calculo)
           }
     }    
 
+}
