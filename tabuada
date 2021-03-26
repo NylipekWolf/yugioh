@@ -1,0 +1,17 @@
+programa 
+{
+	funcao inicio() 
+	{
+		inteiro  r, c
+		
+		escreva("BOM dia Jaison\n Quando vai rolar aquele churras?\n ")
+		
+
+		
+		
+		para (c = 1; c <= 10; c++) 
+		{
+			r = 5 * c 
+			escreva ( "5 X ", c, " = ", r , "\n")
+		}
+	}
