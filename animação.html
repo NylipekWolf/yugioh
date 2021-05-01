@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animação.css">
+  
+    <title>animação</title>
+</head>
+<body>  
+    <button id="ativar">Ativar</button>
+
+    <div id="modal" class="animar">
+        <h1>login</h1>
+        <label>nome</label>
+        <input type="text"/>
+        <label>email</label>
+        <input type="text"/>
+        <button>logar</button>
+
+        <div id="loding"></div>
+    </div>
+    <script>
+        ativar.addEventlistener('click', () =>{
+        modal.classList.toggle('animar');
+        });
+    </script>
+    
+</body>
+</html>
